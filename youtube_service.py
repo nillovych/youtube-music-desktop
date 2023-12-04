@@ -18,4 +18,4 @@ class YouTubeService:
                 'thumbnail': item['snippet']['thumbnails']['default']['url'],
                 'video_id': item['id']['videoId']
             })
-        return result
+        return results
