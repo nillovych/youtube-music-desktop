@@ -8,4 +8,4 @@ if __name__ == '__main__':
     window.resize(1280, 720)
     window.setWindowTitle("YouTube Music App")
     window.show()
-    sys.exit(app.exec_()
+    sys.exit(app.exec_())
