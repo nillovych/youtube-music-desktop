@@ -1,4 +1,4 @@
-from google_service import service
+from services.google_service import service
 
 
 class YouTubeService:
