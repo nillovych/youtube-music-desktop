@@ -1,9 +1,9 @@
 from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QVBoxLayout, QScrollArea
+
+from youtube_service import YouTubeService
 from ui_components import create_button, create_line_edit, create_video_button
 from vlc_player import VLCPlayer
-from youtube_service import YouTubeService
-
 
 class YouTubeMusicApp(QtWidgets.QWidget):
     def __init__(self):
@@ -51,8 +51,7 @@ class YouTubeMusicApp(QtWidgets.QWidget):
         scroll_area = QScrollArea()
         scroll_area.setWidget(container)
         scroll_area.setWidgetResizable(True)
-        scroll_area.setStyleSheet(
-            "QScrollBar {background: black;} QScrollBar:vertical {border: none;width: 10px;} QScrollBar::handle:vertical {background: rgb(36,36,36);}")
+        scroll_area.setStyleSheet("QScrollBar {background: black;} QScrollBar:vertical {border: none;width: 10px;} QScrollBar::handle:vertical {background: rgb(36,36,36);}")
 
         scroll_area.resize(500, 550)
         scroll_area.move(750, 100)

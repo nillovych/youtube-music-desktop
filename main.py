@@ -1,6 +1,6 @@
 import sys
 from PyQt5.QtWidgets import QApplication
-from YouTubeMusicApp import YouTubeMusicApp
+from app.YouTubeMusicApp import YouTubeMusicApp
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
