@@ -1,9 +1,9 @@
 from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QVBoxLayout, QScrollArea
 
-from youtube_service import YouTubeService
+from services.youtube_service import YouTubeService
 from ui_components import create_button, create_line_edit, create_video_button
-from vlc_player import VLCPlayer
+from services.vlc_player import VLCPlayer
 
 class YouTubeMusicApp(QtWidgets.QWidget):
     def __init__(self):
