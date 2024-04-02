@@ -8,5 +8,5 @@ def download_image(url, save_path):
         file.write(response.content)
 
     img = Image.open(save_path)
-    img = crop((105, 45, 370, 320))
+    img = img.crop((105, 45, 370, 320))
     img.save(save_path)
