@@ -8,3 +8,4 @@ dist/
 *.spec
 token files/
 client-secret.json
+/.idea
