@@ -42,7 +42,7 @@ YouTube Music Desktop App is a desktop application designed to stream YouTube Mu
 - **build.py**: Build script for the application.
 
 ## Contributing
-We welcome contributions! Please follow these steps:
+Сontributions are welcomed! Please follow these steps:
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
 3. Make your changes and commit them.
